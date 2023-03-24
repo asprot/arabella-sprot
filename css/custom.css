@@ -1,0 +1,122 @@
+h1 { font-family: Copperplate, "Copperplate Gothic Light", fantasy; font-size: 30px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; color:#F8F8F8; padding-bottom: 20px;} 
+h2 { font-family: Copperplate, "Copperplate Gothic Light", fantasy; font-size: 18px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; color: #F8F8F8  }
+h4 { font-family: Copperplate, "Copperplate Gothic Light", fantasy; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; color: #000000  }
+.topcontainer {
+    background-color: #707070;
+    padding-top: 30px;
+  }
+  .maincontainer {
+    background-color: #E8E8E8;
+    padding-top: 30px;
+  }
+  
+  .masthead {
+  
+    padding-bottom: 35px;
+    padding-top: 35px
+  }
+  
+  .topimg {
+    display: block;
+    margin: auto;
+    width: auto;
+  
+    border: 3px solid #00000000;
+    padding: 10px;
+  }
+
+  .albumimg {
+      disply: block;
+      margin: auto;
+      width: 80%;
+      border: 3px solid #00000000;
+    padding: 10px;
+  }
+  #sidebar-wrapper {
+    z-index: 1000;
+    position: absolute;
+    left: 250px;
+    width: 0;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    background: #000;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  
+  i.blocktext {
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 15em;
+    color: #F8F8F8
+  }
+  
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    border: 3px solid #00000000; 
+  }
+
+  .checked {
+    color: orange;
+  }
+
+  .spotify {
+      color: #1DB954
+  }
+
+.spotlink {font-family: Copperplate, "Copperplate Gothic Light", fantasy; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; color: #000000}
+  .centered {
+
+    text-align: center;
+  }
+
+  .divider {
+    display: inline-block;
+    border-bottom: #707070 5px solid;
+    width: 25%;
+    margin: 30px;
+  }
+
+  @media(max-width:767px) {
+    #hideonmobile1{display:none;}
+    }
+
+    #rcorners1 {
+        border-radius: 25px;
+        background: #707070;
+        padding: 20px; 
+        width: 80%;
+        margin: 0 auto;
+    position: relative;
+      }
+
+      .toppad {
+          padding-top: 30px; 
+      }
+
+      .leftpad {
+          padding-left: 50px;
+      }
+
+      #rc {
+
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+      }
+      .bottomcontainer {
+        background-color: #707070;
+        padding-bottom: 30px;
+      }
+      #rc-bottom {
+
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+      }
+
