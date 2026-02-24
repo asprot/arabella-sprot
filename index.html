@@ -190,35 +190,69 @@
     </div>
         <section>
             <div>
-              <div class="row">
-                <div class="col-sm">
-                      <form method="post" action="mail.php" data-form-title="CONTACT US">
-                        <input type="hidden" data-form-email="true">
-                        <div class="form-group">
-                          <input type="text" class="form-control" name="name" required="" placeholder="Full Name*" data-form-field="Name">
-                        </div>
-                        <br>
-                      
-                        <div class="form-group">
-                          <input type="email" class="form-control" name="email" required="" placeholder="Email Address*" data-form-field="Email">
-                        </div>
-                      <br>
-                      
-                      </div>
-                        <div class="col-sm">
-                        <div class="form-group">
-                          <textarea class="form-control" name="message" placeholder="Message" rows="7" data-form-field="Message"></textarea>
-                        </div>
-                        <div><br></div>
-                          <!--<div class="h-captcha" data-sitekey="7a135340-3534-4297-82cb-bf85bfce90df"></div>-->
-                        <button type="submit" class="btn btn-lg btn-dark order-sm-last">CONTACT ME</button>
-                        <div>
-                          <br>
-                         
-                        </div>
-                      </div>
-                      </form>
-                    </div>
+<div class="row">
+  <form method="post" action="mail.php" data-form-title="CONTACT US" class="w-100">
+    <input type="hidden" data-form-email="true">
+
+    <!-- LEFT COLUMN -->
+    <div class="col-sm">
+      
+      <div class="form-group">
+        <label for="name">Full Name <span aria-hidden="true">*</span></label>
+        <input 
+          type="text" 
+          class="form-control" 
+          id="name"
+          name="name" 
+          required 
+          data-form-field="Name"
+        >
+      </div>
+
+      <br>
+
+      <div class="form-group">
+        <label for="email">Email Address <span aria-hidden="true">*</span></label>
+        <input 
+          type="email" 
+          class="form-control" 
+          id="email"
+          name="email" 
+          required 
+          data-form-field="Email"
+        >
+      </div>
+
+    </div>
+
+    <!-- RIGHT COLUMN -->
+    <div class="col-sm">
+
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea 
+          class="form-control" 
+          id="message"
+          name="message" 
+          rows="7" 
+          data-form-field="Message"
+        ></textarea>
+      </div>
+
+      <br>
+
+      <!--<div class="h-captcha" data-sitekey="7a135340-3534-4297-82cb-bf85bfce90df"></div>-->
+
+      <button type="submit" class="btn btn-lg btn-dark order-sm-last">
+        CONTACT ME
+      </button>
+
+      <br><br>
+
+    </div>
+
+  </form>
+</div>
                   </div>
                 </div>
               </div>
